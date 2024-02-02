@@ -1,0 +1,1411 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: end;
+    height: 130px;
+    font-size: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gav {
+    padding-left: 100px;
+    padding-right: 550px;
+    font-size: 27px;
+    position: relative;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 50px;
+}
+
+.block1 {
+    height: 600px;
+    width: 100%;
+    background-image: url("adv1.jpeg");
+    background-size: cover;
+    position: relative;
+    top: -130px;
+    z-index: -1;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 270px;
+}
+
+.yatra {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 70px;
+    left: 52px;
+    color: #fe2e9d;
+
+}
+
+.hiking {
+    width: 510px;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    position: relative;
+    left: 52px;
+
+}
+
+.but1 {
+    width: 200px;
+    position: relative;
+    font-size: 25px;
+    left: 50px;
+    top: 50px;
+    cursor: pointer;
+    background-color: azure;
+    transition: 0.3s ease;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+button:hover {
+    background-color: rgb(67, 210, 210);
+}
+
+button {
+    width: 240px;
+    height: 50px;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.anim {
+    text-decoration: none;
+    color: rgb(46, 28, 28);
+}
+
+.anim:hover {
+    color: rgb(72, 90, 90);
+
+}
+
+.block2 {
+    height: 470px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 255, 255, 0);
+    position: relative;
+    top: 0px;
+}
+
+.cya {
+    font-size: 50px;
+    padding-left: 40px;
+    position: relative;
+    top: -120px;
+}
+
+.adv-det {
+    font-size: 17px;
+    position: relative;
+    top: -100px;
+}
+
+.second {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.camp {
+    height: 390px;
+    width: 250px;
+    background-image: url("Camping.jpeg");
+    background-size: cover;
+    position: relative;
+    top: -70px;
+    color: antiquewhite;
+    transition: 0.3s ease;
+}
+
+.camp:hover {
+    height: 400px;
+    width: 260px;
+}
+
+.sight {
+    height: 390px;
+    width: 250px;
+    background-image: url("sightseeing.jpeg");
+    background-size: cover;
+    position: relative;
+    top: -70px;
+    color: antiquewhite;
+    transition: 0.3s ease;
+}
+
+.sight:hover {
+    height: 400px;
+    width: 260px;
+}
+
+.hik {
+    height: 390px;
+    width: 250px;
+    background-image: url("hiking.jpeg");
+    background-size: cover;
+    position: relative;
+    top: -70px;
+    color: antiquewhite;
+    transition: 0.3s ease;
+}
+
+.hik:hover {
+    height: 400px;
+    width: 260px;
+}
+
+.but {
+    font-size: 20px;
+    width: 80px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    transition: 0.3s ease;
+}
+
+.but:hover {
+    height: 30px;
+    width: 90px;
+}
+
+.block3 {
+    height: 600px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.brow {
+    font-size: 50px;
+    padding-left: 40px;
+}
+
+.yatra-solitude {
+    position: relative;
+    top: 20px;
+    left: 200px;
+    background-color: aquamarine;
+    height: 340px;
+    width: 850px;
+    border-radius: 10px;
+    background-image: url("solitude1.jpeg");
+    background-size: cover;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    bottom: -20px;
+
+}
+
+.fa-brands {
+    font-size: 30px;
+    padding-right: 5px;
+    transition: 0.1s ease;
+}
+
+.fa-brands:hover {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    bottom: -80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.photographer {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(116, 215, 215);
+    position: relative;
+    flex-direction: column;
+    right: -550px;
+    height: 340px;
+    width: 300px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.yatra1 {
+    height: 45px;
+    background-color: rgb(59, 196, 196);
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 10px;
+    font-size: 20px;
+    color: rgb(246, 251, 255);
+
+
+}
+
+.head1 {
+    position: relative;
+    top: 130px;
+    left: -290px;
+    color: rgb(18, 110, 239);
+    font-size: 16px;
+}
+
+.head2 {
+    position: relative;
+    font-size: 12.9px;
+    color: rgb(214, 247, 247);
+}
+
+.head3 {
+    color: white;
+    position: relative;
+    top: 5px;
+}
+
+.head4 {
+    color: rgb(214, 247, 247);
+    position: relative;
+    top: 30px;
+    left: -37px;
+}
+
+.head5 {
+    color: white;
+    position: relative;
+    top: 60px;
+    left: -72px;
+}
+
+.head6 {
+    font-size: 12.9px;
+    position: relative;
+    top: 60px;
+    color: rgb(214, 247, 247);
+}
+
+.exp {
+    position: relative;
+    top: 70px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+.exp:hover {
+    background-color: aquamarine;
+    font-size: 38px;
+}
+
+@media (min-width : 360px) and (max-width : 450px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .nav-bar {
+        display: flex;
+        align-items: end;
+        height: 130px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .gav {
+        padding-left: 50px;
+        padding-right: 340px;
+        font-size: 40px;
+        position: relative;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 50px;
+    }
+
+    .block1 {
+        height: 800px;
+        width: 1200px;
+        background-image: url("adv1.jpeg");
+        background-size: cover;
+        position: relative;
+        top: -130px;
+        z-index: -1;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 370px;
+    }
+
+    .yatra {
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        font-size: 80px;
+        left: 82px;
+        color: #fe2e9d;
+
+    }
+
+    .hiking {
+        width: 610px;
+        font-size: 30px;
+        color: white;
+        position: relative;
+        position: relative;
+        left: 52px;
+
+    }
+
+    .but1 {
+        height: 60px;
+        width: 300px;
+        position: relative;
+        font-size: 40px;
+        left: 50px;
+        top: 50px;
+        cursor: pointer;
+        background-color: azure;
+        transition: 0.3s ease;
+        color: black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    button:hover {
+        background-color: rgb(67, 210, 210);
+    }
+
+    button {
+        width: 240px;
+        height: 50px;
+        font-size: 35px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .anim {
+        text-decoration: none;
+        color: rgb(46, 28, 28);
+    }
+
+    .anim:hover {
+        color: rgb(72, 90, 90);
+
+    }
+
+    .block2 {
+        height: 800px;
+        width: 1200px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 255, 255, 0);
+        position: relative;
+        top: 0px;
+    }
+
+    .cya {
+        font-size: 70px;
+        padding-left: 40px;
+        position: relative;
+        top: -120px;
+    }
+
+    .adv-det {
+        font-size: 30px;
+        position: relative;
+        top: -100px;
+    }
+
+    .second {
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .camp {
+        height: 450px;
+        width: 300px;
+        background-image: url("Camping.jpeg");
+        background-size: cover;
+        position: relative;
+        top: 0px;
+        color: antiquewhite;
+        transition: 0.3s ease;
+        font-size: 25px;
+    }
+
+    .camp:hover {
+        height: 460px;
+        width: 310px;
+    }
+
+    .sight {
+        height: 450px;
+        width: 300px;
+        background-image: url("sightseeing.jpeg");
+        background-size: cover;
+        position: relative;
+        top: 0px;
+        color: antiquewhite;
+        transition: 0.3s ease;
+        font-size: 25px;
+    }
+
+    .sight:hover {
+        height: 460px;
+        width: 310px;
+    }
+
+    .hik {
+        height: 450px;
+        width: 300px;
+        background-image: url("hiking.jpeg");
+        background-size: cover;
+        position: relative;
+        top: 0px;
+        color: antiquewhite;
+        transition: 0.3s ease;
+        font-size: 25px;
+    }
+
+    .hik:hover {
+        height: 460px;
+        width: 310px;
+    }
+
+    .but {
+        font-size: 20px;
+        width: 80px;
+        height: 20px;
+        position: relative;
+        top: 5px;
+        transition: 0.3s ease;
+    }
+
+    .but:hover {
+        height: 30px;
+        width: 90px;
+    }
+
+    .block3 {
+        height: 935px;
+        width: 1200px;
+        background-color: antiquewhite;
+    }
+
+    .brow {
+        font-size: 70px;
+        padding-left: 40px;
+    }
+
+    .adv-det1 {
+        font-size: 30px;
+    }
+
+    .yatra-solitude {
+        position: relative;
+        top: 20px;
+        left: 120px;
+        background-color: aquamarine;
+        height: 400px;
+        width: 970px;
+        border-radius: 10px;
+        background-image: url("solitude1.jpeg");
+        background-size: cover;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foot {
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: end;
+        position: relative;
+        bottom: -200px;
+        font-size: 25px;
+
+    }
+
+    .fa-brands {
+        font-size: 40px;
+        padding-right: 5px;
+        transition: 0.1s ease;
+    }
+
+    .fa-brands:hover {
+        font-size: 45px;
+        cursor: pointer;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: end;
+        position: relative;
+        bottom: -80px;
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+    }
+
+    .photographer {
+        height: 40px;
+        width: 40px;
+        background-color: rgb(116, 215, 215);
+        position: relative;
+        flex-direction: column;
+        left: 600px;
+        height: 400px;
+        width: 370px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .yatra1 {
+        height: 45px;
+        background-color: rgb(59, 196, 196);
+        position: relative;
+        display: flex;
+        align-items: center;
+        top: 10px;
+        font-size: 24px;
+        color: rgb(246, 251, 255);
+
+
+    }
+
+    .head1 {
+        position: relative;
+        top: 150px;
+        left: -350px;
+        color: rgb(18, 110, 239);
+        font-size: 20px;
+    }
+
+    .head2 {
+        width: 360px;
+        position: relative;
+        font-size: 18px;
+        color: rgb(214, 247, 247);
+    }
+
+    .head3 {
+        color: white;
+        position: relative;
+        top: 5px;
+        font-size: 20px;
+    }
+
+    .head4 {
+        color: rgb(214, 247, 247);
+        position: relative;
+        top: 30px;
+        left: -47px;
+    }
+
+    .head5 {
+        color: white;
+        position: relative;
+        top: 60px;
+        left: -90px;
+        font-size: 20px;
+    }
+
+    .head6 {
+        font-size: 18px;
+        position: relative;
+        top: 60px;
+        color: rgb(214, 247, 247);
+    }
+
+    .exp {
+        position: relative;
+        top: 80px;
+        left: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s ease;
+    }
+
+    .exp:hover {
+        background-color: aquamarine;
+        font-size: 38px;
+    }
+}
+
+/* 540 280 */
+@media (min-width: 660px) and (max-width : 1290px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .nav-bar {
+        display: flex;
+        align-items: end;
+        height: 130px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .gav {
+        padding-left: 50px;
+        padding-right: 300px;
+        font-size: 40px;
+        position: relative;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 50px;
+    }
+
+    .block1 {
+        height: 800px;
+        width: 1263px;
+        background-image: url("adv1.jpeg");
+        background-size: cover;
+        position: relative;
+        top: -130px;
+        z-index: -1;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 370px;
+    }
+
+    .yatra {
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        font-size: 80px;
+        left: 82px;
+        color: #fe2e9d;
+
+    }
+
+    .hiking {
+        width: 610px;
+        font-size: 30px;
+        color: white;
+        position: relative;
+        position: relative;
+        left: 52px;
+
+    }
+
+    .but1 {
+        height: 60px;
+        width: 300px;
+        position: relative;
+        font-size: 40px;
+        left: 50px;
+        top: 50px;
+        cursor: pointer;
+        background-color: azure;
+        transition: 0.3s ease;
+        color: black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    button:hover {
+        background-color: rgb(67, 210, 210);
+    }
+
+    button {
+        width: 240px;
+        height: 50px;
+        font-size: 35px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .anim {
+        text-decoration: none;
+        color: rgb(46, 28, 28);
+    }
+
+    .anim:hover {
+        color: rgb(72, 90, 90);
+
+    }
+
+    .block2 {
+        height: 800px;
+        width: 1263px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 255, 255, 0);
+        position: relative;
+        top: 0px;
+    }
+
+    .cya {
+        font-size: 70px;
+        padding-left: 40px;
+        position: relative;
+        top: -120px;
+    }
+
+    .adv-det {
+        font-size: 30px;
+        position: relative;
+        top: -100px;
+    }
+
+    .second {
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .camp {
+        height: 450px;
+        width: 300px;
+        background-image: url("Camping.jpeg");
+        background-size: cover;
+        position: relative;
+        top: 0px;
+        color: antiquewhite;
+        transition: 0.3s ease;
+        font-size: 25px;
+    }
+
+    .camp:hover {
+        height: 460px;
+        width: 310px;
+    }
+
+    .sight {
+        height: 450px;
+        width: 300px;
+        background-image: url("sightseeing.jpeg");
+        background-size: cover;
+        position: relative;
+        top: 0px;
+        color: antiquewhite;
+        transition: 0.3s ease;
+        font-size: 25px;
+    }
+
+    .sight:hover {
+        height: 460px;
+        width: 310px;
+    }
+
+    .hik {
+        height: 450px;
+        width: 300px;
+        background-image: url("hiking.jpeg");
+        background-size: cover;
+        position: relative;
+        top: 0px;
+        color: antiquewhite;
+        transition: 0.3s ease;
+        font-size: 25px;
+    }
+
+    .hik:hover {
+        height: 460px;
+        width: 310px;
+    }
+
+    .but {
+        font-size: 20px;
+        width: 80px;
+        height: 20px;
+        position: relative;
+        top: 5px;
+        transition: 0.3s ease;
+    }
+
+    .but:hover {
+        height: 30px;
+        width: 90px;
+    }
+
+    .block3 {
+        height: 935px;
+        width: 1263px;
+        background-color: antiquewhite;
+    }
+
+    .brow {
+        font-size: 70px;
+        padding-left: 40px;
+    }
+
+    .adv-det1 {
+        font-size: 30px;
+    }
+
+    .yatra-solitude {
+        position: relative;
+        top: 20px;
+        left: 120px;
+        background-color: aquamarine;
+        height: 400px;
+        width: 970px;
+        border-radius: 10px;
+        background-image: url("solitude1.jpeg");
+        background-size: cover;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foot {
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: end;
+        position: relative;
+        bottom: -200px;
+        font-size: 25px;
+
+    }
+
+    .fa-brands {
+        font-size: 40px;
+        padding-right: 5px;
+        transition: 0.1s ease;
+    }
+
+    .fa-brands:hover {
+        font-size: 45px;
+        cursor: pointer;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: end;
+        position: relative;
+        bottom: -80px;
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+    }
+
+    .photographer {
+        height: 40px;
+        width: 40px;
+        background-color: rgb(116, 215, 215);
+        position: relative;
+        flex-direction: column;
+        left: 600px;
+        height: 400px;
+        width: 370px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .yatra1 {
+        height: 45px;
+        background-color: rgb(59, 196, 196);
+        position: relative;
+        display: flex;
+        align-items: center;
+        top: 10px;
+        font-size: 24px;
+        color: rgb(246, 251, 255);
+
+
+    }
+
+    .head1 {
+        position: relative;
+        top: 150px;
+        left: -350px;
+        color: rgb(18, 110, 239);
+        font-size: 20px;
+    }
+
+    .head2 {
+        width: 360px;
+        position: relative;
+        font-size: 18px;
+        color: rgb(214, 247, 247);
+    }
+
+    .head3 {
+        color: white;
+        position: relative;
+        top: 5px;
+        font-size: 20px;
+    }
+
+    .head4 {
+        color: rgb(214, 247, 247);
+        position: relative;
+        top: 30px;
+        left: -47px;
+    }
+
+    .head5 {
+        color: white;
+        position: relative;
+        top: 60px;
+        left: -90px;
+        font-size: 20px;
+    }
+
+    .head6 {
+        font-size: 18px;
+        position: relative;
+        top: 60px;
+        color: rgb(214, 247, 247);
+    }
+
+    .exp {
+        position: relative;
+        top: 80px;
+        left: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s ease;
+    }
+
+    .exp:hover {
+        background-color: aquamarine;
+        font-size: 38px;
+    }
+}
+
+/* 540 280 */
+@media (min-width: 280px) and (max-width : 540px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .nav-bar {
+        display: flex;
+        align-items: end;
+        height: 130px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .gav {
+        padding-left: 50px;
+        padding-right: 300px;
+        font-size: 40px;
+        position: relative;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 50px;
+    }
+
+    .block1 {
+        height: 800px;
+        width: 1140px;
+        background-image: url("adv1.jpeg");
+        background-size: cover;
+        position: relative;
+        top: -130px;
+        z-index: -1;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 370px;
+    }
+
+    .yatra {
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        font-size: 80px;
+        left: 82px;
+        color: #fe2e9d;
+
+    }
+
+    .hiking {
+        width: 610px;
+        font-size: 30px;
+        color: white;
+        position: relative;
+        position: relative;
+        left: 52px;
+
+    }
+
+    .but1 {
+        height: 60px;
+        width: 300px;
+        position: relative;
+        font-size: 40px;
+        left: 50px;
+        top: 50px;
+        cursor: pointer;
+        background-color: azure;
+        transition: 0.3s ease;
+        color: black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    button:hover {
+        background-color: rgb(67, 210, 210);
+    }
+
+    button {
+        width: 240px;
+        height: 50px;
+        font-size: 35px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .anim {
+        text-decoration: none;
+        color: rgb(46, 28, 28);
+    }
+
+    .anim:hover {
+        color: rgb(72, 90, 90);
+
+    }
+
+    .block2 {
+        height: 800px;
+        width: 1140px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 255, 255, 0);
+        position: relative;
+        top: 0px;
+    }
+
+    .cya {
+        font-size: 70px;
+        padding-left: 40px;
+        position: relative;
+        top: -120px;
+    }
+
+    .adv-det {
+        font-size: 30px;
+        position: relative;
+        top: -100px;
+    }
+
+    .second {
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .camp {
+        height: 450px;
+        width: 300px;
+        background-image: url("Camping.jpeg");
+        background-size: cover;
+        position: relative;
+        top: 0px;
+        color: antiquewhite;
+        transition: 0.3s ease;
+        font-size: 25px;
+    }
+
+    .camp:hover {
+        height: 460px;
+        width: 310px;
+    }
+
+    .sight {
+        height: 450px;
+        width: 300px;
+        background-image: url("sightseeing.jpeg");
+        background-size: cover;
+        position: relative;
+        top: 0px;
+        color: antiquewhite;
+        transition: 0.3s ease;
+        font-size: 25px;
+    }
+
+    .sight:hover {
+        height: 460px;
+        width: 310px;
+    }
+
+    .hik {
+        height: 450px;
+        width: 300px;
+        background-image: url("hiking.jpeg");
+        background-size: cover;
+        position: relative;
+        top: 0px;
+        color: antiquewhite;
+        transition: 0.3s ease;
+        font-size: 25px;
+    }
+
+    .hik:hover {
+        height: 460px;
+        width: 310px;
+    }
+
+    .but {
+        font-size: 20px;
+        width: 80px;
+        height: 20px;
+        position: relative;
+        top: 5px;
+        transition: 0.3s ease;
+    }
+
+    .but:hover {
+        height: 30px;
+        width: 90px;
+    }
+
+    .block3 {
+        height: 935px;
+        width: 1140px;
+        background-color: antiquewhite;
+    }
+
+    .brow {
+        font-size: 70px;
+        padding-left: 40px;
+    }
+
+    .adv-det1 {
+        font-size: 30px;
+    }
+
+    .yatra-solitude {
+        position: relative;
+        top: 20px;
+        left: 120px;
+        background-color: aquamarine;
+        height: 400px;
+        width: 970px;
+        border-radius: 10px;
+        background-image: url("solitude1.jpeg");
+        background-size: cover;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foot {
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: end;
+        position: relative;
+        bottom: -200px;
+        font-size: 25px;
+
+    }
+
+    .fa-brands {
+        font-size: 40px;
+        padding-right: 5px;
+        transition: 0.1s ease;
+    }
+
+    .fa-brands:hover {
+        font-size: 45px;
+        cursor: pointer;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: end;
+        position: relative;
+        bottom: -80px;
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+    }
+
+    .photographer {
+        height: 40px;
+        width: 40px;
+        background-color: rgb(116, 215, 215);
+        position: relative;
+        flex-direction: column;
+        left: 600px;
+        height: 400px;
+        width: 370px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .yatra1 {
+        height: 45px;
+        background-color: rgb(59, 196, 196);
+        position: relative;
+        display: flex;
+        align-items: center;
+        top: 10px;
+        font-size: 24px;
+        color: rgb(246, 251, 255);
+
+
+    }
+
+    .head1 {
+        position: relative;
+        top: 150px;
+        left: -350px;
+        color: rgb(18, 110, 239);
+        font-size: 20px;
+    }
+
+    .head2 {
+        width: 360px;
+        position: relative;
+        font-size: 18px;
+        color: rgb(214, 247, 247);
+    }
+
+    .head3 {
+        color: white;
+        position: relative;
+        top: 5px;
+        font-size: 20px;
+    }
+
+    .head4 {
+        color: rgb(214, 247, 247);
+        position: relative;
+        top: 30px;
+        left: -47px;
+    }
+
+    .head5 {
+        color: white;
+        position: relative;
+        top: 60px;
+        left: -90px;
+        font-size: 20px;
+    }
+
+    .head6 {
+        font-size: 18px;
+        position: relative;
+        top: 60px;
+        color: rgb(214, 247, 247);
+    }
+
+    .exp {
+        position: relative;
+        top: 80px;
+        left: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s ease;
+    }
+
+    .exp:hover {
+        background-color: aquamarine;
+        font-size: 38px;
+    }
+}
