@@ -1404,8 +1404,8 @@ footer {
         transition: 0.3s ease;
     }
 
-    .exp:hover {
+    .exp: hover {
         background-color: aquamarine;
-        font-size: 38px;
+        font-size: 34px;
     }
 }
