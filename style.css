@@ -1047,14 +1047,14 @@ footer {
         transition: 0.3s ease;
     }
 
-    .exp:hover {
+    .exp: hover {
         background-color: aquamarine;
         font-size: 38px;
     }
 }
 
 /* 540 280 */
-@media (min-width: 280px) and (max-width : 540px) {
+@media screen and (max-width: 540px) {
     * {
         margin: 0;
         padding: 0;
