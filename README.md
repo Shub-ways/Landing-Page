@@ -1,3 +1,3 @@
-Created a Landing Page by using HTML and CSS.
+I created a Landing Page using HTML and CSS.
 
-GitHub link - https://shubham-kumar2005.github.io/Landing-Page/
+GitHub link - https://shub-ways.github.io/Landing-Page/
